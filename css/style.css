@@ -1,0 +1,153 @@
+/* 繋がったかくにん済 */
+
+html {
+    background-color: #fbfeff;
+    font-size: 62.5%;/* 16px*62.5%=10px */
+    font: optional;
+    font-family: 'Open Sans', sans-serif;
+    color: #421713;
+}
+
+header{
+    padding: 50px;
+}
+
+body {
+    margin: auto;
+    font-size: 1.6rem;
+}
+
+.form-title{
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 0.2em;
+    margin:20px auto;
+}
+
+.sub-title{
+    font-size: 1.8rem;
+    text-align: center;
+    letter-spacing: 0.2em;
+    margin: 0 auto 20px;
+}
+
+.form-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 500px 20px;
+}
+
+#txt-box{
+    width: 200px;
+    height: 30px;
+    border: 1px solid #55316e;
+    border-radius: 2px;
+}
+
+select{
+    width: 200px;
+    height: 30px;
+    border: 1px solid #55316e;
+    border-radius: 2px;
+}
+
+#radio{
+    margin: 3px 10px 5px 10px;
+}
+
+.box-flame{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.form-name{
+    padding: 10px 20px 10px 8px;
+    text-align: left;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-submit {
+    width:100px;
+    display:inline-block; /*送信とリセットを横並び*/
+    font-size:1rem;
+    text-align:center;
+    padding:10px;
+    background:#dc2f59;
+    color: #fbfeff;
+    line-height:1em;
+    border:none;
+    border-radius: 5px;
+    margin: 10px 10px;
+}
+
+.btn-submit:hover {/*マウスを合わせた時の処理（hover）*/
+    color:#421713;
+    background: #fbfeff;
+}
+
+.btn-reset {
+    width:100px;
+    display:inline-block; /*送信とリセットを横並び*/
+    font-size:1rem;
+    text-align:center;
+    padding:10px;
+    background:#dc2f59;
+    color: #fbfeff;
+    line-height:1em;
+    border:none;
+    border-radius: 5px;
+    margin: 10px 10px;
+}
+.btn-reset:hover {/*マウスを合わせた時の処理（hover）*/
+    color:#421713;
+    background: #fbfeff;
+}
+
+
+/* select.php */
+table{
+    width: 100%;
+    table-layout: fixed;
+}
+
+.result-flame{
+    border:3px #55316e solid;
+    border-collapse: collapse;
+    width: 1200px;
+    margin: 50px auto;
+}
+
+.ttt{
+    padding: 20px;
+    border:0.8px #55316e solid;
+    background-color: #c2fc8f;
+    font-weight: bold;
+}
+
+th:nth-child(1){
+    width: 50px;
+}
+
+th:nth-child(2){
+    width: 200px;
+}
+
+.result-box-flame{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.result-data{
+    padding: 5px;
+    border:0.8px #55316e solid;
+    text-align: left;
+    word-wrap: break-word;
+    vertical-align: middle;
+}
+
